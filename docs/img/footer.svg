@@ -1,4 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="RAG-система / дообучение LLM под домен">
+<style>
+.tw{animation:tw 4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.35}50%{opacity:1}}
+.w1{animation:w1 8s ease-in-out infinite alternate}
+.w2{animation:w2 11s ease-in-out infinite alternate}
+@keyframes w1{from{transform:translateX(-70px)}to{transform:translateX(70px)}}
+@keyframes w2{from{transform:translateX(80px)}to{transform:translateX(-80px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
 <defs>
   <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#0B1F4D"/><stop offset="0.5" stop-color="#1E50C8"/><stop offset="1" stop-color="#4C8DF6"/></linearGradient>
   <linearGradient id="b" x1="0" x2="1"><stop offset="0" stop-color="#1E50C8" stop-opacity=".55"/><stop offset="1" stop-color="#4C8DF6" stop-opacity=".25"/></linearGradient>
@@ -6,8 +15,8 @@
 </defs>
 <g clip-path="url(#c)">
   <rect width="1200" height="160" fill="url(#a)"/>
-  <path d="M0 70 C200 20 380 120 600 70 S1000 20 1200 75 V160 H0Z" fill="url(#b)"/>
-  <path d="M0 105 C220 70 420 150 640 108 S1020 70 1200 110 V160 H0Z" fill="#fff" fill-opacity="0.08"/>
+  <path class="w1" d="M-200 70 C0 20 180 120 400 70 S800 20 1000 75 S1300 120 1400 70 V160 H-200Z" fill="url(#b)"/>
+  <path class="w2" d="M-200 105 C20 70 220 150 440 108 S820 70 1000 110 S1300 140 1400 105 V160 H-200Z" fill="#fff" fill-opacity="0.08"/>
   <line x1="543" y1="88" x2="609" y2="91" stroke="#fff" stroke-opacity="0.18" stroke-width="1.2"/>
 <line x1="543" y1="88" x2="634" y2="23" stroke="#fff" stroke-opacity="0.07" stroke-width="1.2"/>
 <line x1="543" y1="88" x2="529" y2="125" stroke="#fff" stroke-opacity="0.25" stroke-width="1.2"/>
@@ -62,32 +71,42 @@
 <line x1="1008" y1="107" x2="1016" y2="65" stroke="#fff" stroke-opacity="0.24" stroke-width="1.2"/>
 <line x1="378" y1="45" x2="347" y2="24" stroke="#fff" stroke-opacity="0.26" stroke-width="1.2"/>
 <line x1="920" y1="67" x2="1016" y2="65" stroke="#fff" stroke-opacity="0.11" stroke-width="1.2"/>
-<circle cx="543" cy="88" r="2.5" fill="#fff" fill-opacity="0.66"/>
-<circle cx="1109" cy="76" r="5" fill="#fff" fill-opacity="0.63"/>
-<circle cx="609" cy="91" r="2.5" fill="#fff" fill-opacity="0.70"/>
-<circle cx="222" cy="82" r="2.5" fill="#fff" fill-opacity="0.80"/>
-<circle cx="756" cy="118" r="3.5" fill="#fff" fill-opacity="0.60"/>
-<circle cx="113" cy="54" r="3.5" fill="#fff" fill-opacity="0.60"/>
-<circle cx="109" cy="120" r="3.5" fill="#fff" fill-opacity="0.79"/>
-<circle cx="832" cy="20" r="2.5" fill="#fff" fill-opacity="0.51"/>
-<circle cx="1179" cy="140" r="5" fill="#fff" fill-opacity="0.50"/>
-<circle cx="785" cy="95" r="2.5" fill="#fff" fill-opacity="0.66"/>
-<circle cx="189" cy="17" r="3.5" fill="#fff" fill-opacity="0.53"/>
-<circle cx="634" cy="23" r="5" fill="#fff" fill-opacity="0.53"/>
-<circle cx="228" cy="46" r="5" fill="#fff" fill-opacity="0.54"/>
-<circle cx="36" cy="75" r="5" fill="#fff" fill-opacity="0.80"/>
-<circle cx="529" cy="125" r="3.5" fill="#fff" fill-opacity="0.74"/>
-<circle cx="623" cy="98" r="2.5" fill="#fff" fill-opacity="0.63"/>
-<circle cx="600" cy="101" r="2.5" fill="#fff" fill-opacity="0.45"/>
-<circle cx="549" cy="51" r="5" fill="#fff" fill-opacity="0.59"/>
-<circle cx="1197" cy="144" r="2.5" fill="#fff" fill-opacity="0.54"/>
-<circle cx="1008" cy="107" r="3.5" fill="#fff" fill-opacity="0.90"/>
-<circle cx="378" cy="45" r="5" fill="#fff" fill-opacity="0.74"/>
-<circle cx="347" cy="24" r="2.5" fill="#fff" fill-opacity="0.47"/>
-<circle cx="920" cy="67" r="2.5" fill="#fff" fill-opacity="0.55"/>
-<circle cx="1016" cy="65" r="3.5" fill="#fff" fill-opacity="0.45"/>
-<circle cx="1150" cy="125" r="5" fill="#fff" fill-opacity="0.60"/>
-<circle cx="1" cy="42" r="3.5" fill="#fff" fill-opacity="0.62"/>
+<circle class="tw" cx="543" cy="88" r="2.5" fill="#fff" fill-opacity="0.66" style="animation-duration:5.4s;animation-delay:-1.6s"/>
+<circle class="tw" cx="1109" cy="76" r="2.5" fill="#fff" fill-opacity="0.70" style="animation-duration:3.1s;animation-delay:-2.7s"/>
+<circle class="tw" cx="609" cy="91" r="3.5" fill="#fff" fill-opacity="0.49" style="animation-duration:3.5s;animation-delay:-3.9s"/>
+<circle class="tw" cx="222" cy="82" r="2.5" fill="#fff" fill-opacity="0.51" style="animation-duration:4.6s;animation-delay:-0.0s"/>
+<circle class="tw" cx="756" cy="118" r="3.5" fill="#fff" fill-opacity="0.81" style="animation-duration:3.0s;animation-delay:-2.2s"/>
+<circle class="tw" cx="113" cy="54" r="3.5" fill="#fff" fill-opacity="0.68" style="animation-duration:5.5s;animation-delay:-3.1s"/>
+<circle class="tw" cx="109" cy="120" r="3.5" fill="#fff" fill-opacity="0.74" style="animation-duration:2.8s;animation-delay:-1.7s"/>
+<circle class="tw" cx="832" cy="20" r="2.5" fill="#fff" fill-opacity="0.45" style="animation-duration:5.1s;animation-delay:-3.9s"/>
+<circle class="tw" cx="1179" cy="140" r="5" fill="#fff" fill-opacity="0.59" style="animation-duration:5.2s;animation-delay:-0.8s"/>
+<circle class="tw" cx="785" cy="95" r="3.5" fill="#fff" fill-opacity="0.90" style="animation-duration:4.3s;animation-delay:-2.3s"/>
+<circle class="tw" cx="189" cy="17" r="2.5" fill="#fff" fill-opacity="0.90" style="animation-duration:3.1s;animation-delay:-1.0s"/>
+<circle class="tw" cx="634" cy="23" r="5" fill="#fff" fill-opacity="0.60" style="animation-duration:3.4s;animation-delay:-0.3s"/>
+<circle class="tw" cx="228" cy="46" r="2.5" fill="#fff" fill-opacity="0.54" style="animation-duration:4.4s;animation-delay:-0.1s"/>
+<circle class="tw" cx="36" cy="75" r="3.5" fill="#fff" fill-opacity="0.62" style="animation-duration:3.9s;animation-delay:-3.8s"/>
+<circle class="tw" cx="529" cy="125" r="3.5" fill="#fff" fill-opacity="0.82" style="animation-duration:2.9s;animation-delay:-1.5s"/>
+<circle class="tw" cx="623" cy="98" r="5" fill="#fff" fill-opacity="0.52" style="animation-duration:5.2s;animation-delay:-3.3s"/>
+<circle class="tw" cx="600" cy="101" r="2.5" fill="#fff" fill-opacity="0.78" style="animation-duration:3.0s;animation-delay:-2.5s"/>
+<circle class="tw" cx="549" cy="51" r="5" fill="#fff" fill-opacity="0.54" style="animation-duration:5.4s;animation-delay:-3.5s"/>
+<circle class="tw" cx="1197" cy="144" r="5" fill="#fff" fill-opacity="0.49" style="animation-duration:2.6s;animation-delay:-0.4s"/>
+<circle class="tw" cx="1008" cy="107" r="5" fill="#fff" fill-opacity="0.88" style="animation-duration:3.2s;animation-delay:-2.8s"/>
+<circle class="tw" cx="378" cy="45" r="3.5" fill="#fff" fill-opacity="0.64" style="animation-duration:5.2s;animation-delay:-2.0s"/>
+<circle class="tw" cx="347" cy="24" r="5" fill="#fff" fill-opacity="0.53" style="animation-duration:4.7s;animation-delay:-0.3s"/>
+<circle class="tw" cx="920" cy="67" r="2.5" fill="#fff" fill-opacity="0.67" style="animation-duration:4.5s;animation-delay:-2.5s"/>
+<circle class="tw" cx="1016" cy="65" r="2.5" fill="#fff" fill-opacity="0.58" style="animation-duration:5.3s;animation-delay:-0.8s"/>
+<circle class="tw" cx="1150" cy="125" r="2.5" fill="#fff" fill-opacity="0.48" style="animation-duration:3.7s;animation-delay:-1.0s"/>
+<circle class="tw" cx="1" cy="42" r="2.5" fill="#fff" fill-opacity="0.53" style="animation-duration:3.6s;animation-delay:-2.3s"/>
+<circle r="2.6" fill="#BFD9FF" opacity="0"><animateMotion dur="4.0s" begin="1.4s" repeatCount="indefinite" path="M222,82 L109,120"/>
+<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="4.0s" begin="1.4s" repeatCount="indefinite"/></circle>
+<circle r="2.6" fill="#BFD9FF" opacity="0"><animateMotion dur="2.9s" begin="0.9s" repeatCount="indefinite" path="M222,82 L347,24"/>
+<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="2.9s" begin="0.9s" repeatCount="indefinite"/></circle>
+<circle r="2.6" fill="#BFD9FF" opacity="0"><animateMotion dur="2.3s" begin="1.8s" repeatCount="indefinite" path="M109,120 L189,17"/>
+<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="2.3s" begin="1.8s" repeatCount="indefinite"/></circle>
+<circle r="2.6" fill="#BFD9FF" opacity="0"><animateMotion dur="2.3s" begin="0.2s" repeatCount="indefinite" path="M228,46 L347,24"/>
+<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="2.3s" begin="0.2s" repeatCount="indefinite"/></circle>
+<circle r="2.6" fill="#BFD9FF" opacity="0"><animateMotion dur="2.8s" begin="0.4s" repeatCount="indefinite" path="M113,54 L1,42"/>
+<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="2.8s" begin="0.4s" repeatCount="indefinite"/></circle>
   <text x="600" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff">RAG-система / дообучение LLM под домен</text>
   <text x="600" y="124" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#fff" fill-opacity=".85">Годовой проект · Уровень PRO</text>
 </g>
