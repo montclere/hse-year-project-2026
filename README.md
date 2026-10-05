@@ -1,119 +1,174 @@
+<!-- ================= HEADER ================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=170&color=0:0B1F4D,50:1E50C8,100:4C8DF6&section=header" alt="" />
+
 <div align="center">
 
-<img src="assets/banner.svg" alt="RAG-система / дообучение LLM под домен" width="100%">
+<img src="https://readme-typing-svg.demolab.com?font=Inconsolata&weight=600&size=34&duration=3500&pause=600&color=4C8DF6&center=true&vCenter=true&repeat=true&width=900&height=100&lines=RAG-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0+%2F+%D0%B4%D0%BE%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5+LLM+%D0%BF%D0%BE%D0%B4+%D0%B4%D0%BE%D0%BC%D0%B5%D0%BD+%F0%9F%94%8E;%D0%A2%D0%BE%D1%87%D0%BD%D1%8B%D0%B5+%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%8B+%D0%BF%D0%BE+%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%BC%D1%83+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%D1%83+%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2;Retrieval+%C2%B7+Generation+%C2%B7+Evaluation;%D0%9C%D0%B5%D0%BD%D1%8C%D1%88%D0%B5+%D0%B3%D0%B0%D0%BB%D0%BB%D1%8E%D1%86%D0%B8%D0%BD%D0%B0%D1%86%D0%B8%D0%B9+%E2%80%94+%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5+%D1%84%D0%B0%D0%BA%D1%82%D0%BE%D0%B2" alt="RAG-система / дообучение LLM под домен" />
 
-<br>
+<br/>
 
-**Вопросно-ответная система по корпусу документов: точные ответы, ссылки на источники и борьба с галлюцинациями**
-
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=for-the-badge)
-![Level](https://img.shields.io/badge/level-PRO-red?style=for-the-badge)
-![Task](https://img.shields.io/badge/task-QA%20%2B%20text%20generation-blue?style=for-the-badge)
-
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM-open--source-8A2BE2)
-![Vector Store](https://img.shields.io/badge/Vector%20store-FAISS%20%7C%20Qdrant%20%7C%20Chroma-009688)
-![LoRA](https://img.shields.io/badge/Fine--tuning-LoRA-orange)
-![RAGAS](https://img.shields.io/badge/Eval-RAGAS-success)
-
-[О проекте](#-о-проекте) •
-[Команда](#-команда) •
-[Подход](#-подход) •
-[План работы](#-план-работы) •
-[Метрики](#-метрики-и-критерии-приёмки)
+![Status](https://img.shields.io/badge/status-in_progress-4C8DF6?style=flat-square)
+![Level](https://img.shields.io/badge/level-PRO-1E50C8?style=flat-square)
+![Task](https://img.shields.io/badge/task-QA_%2B_text_generation-0F2D69?style=flat-square)
+![Year](https://img.shields.io/badge/годовой_проект-2026%E2%80%932027-0B1F4D?style=flat-square)
 
 </div>
 
-<img src="assets/divider.svg" alt="" width="100%">
+<!-- ================= ABOUT ================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0B1F4D,50:1E50C8,100:4C8DF6&section=header" alt="" />
 
-## 📌 О проекте
+## 🎯 О проекте
 
-Годовой проект по теме **«RAG-система / дообучение LLM под домен»**.
+Система вопрос-ответ по корпусу документов на основе **RAG** (Retrieval-Augmented Generation) или дообученной LLM — с оценкой качества ответов и разбором случаев галлюцинаций.
 
-### Проблема
+> **Проблема.** Пользователям нужны точные ответы по большому корпусу документов. Обычный поиск по ключевым словам не даёт связного ответа, а LLM без контекста «галлюцинирует» — отвечает уверенно, но выдумывает факты.
 
-Пользователям нужны точные ответы по большому корпусу документов, но:
+<div align="center">
 
-- 🔤 **обычный поиск по ключевым словам** не даёт связного ответа — приходится самому читать десятки документов;
-- 🤖 **LLM без контекста** «галлюцинирует»: отвечает уверенно, но выдумывает факты и не знает содержимого нашего корпуса.
+| 🔤 Поиск по ключевым словам | 🤖 LLM без контекста | ✅ Наш подход |
+|:---:|:---:|:---:|
+| находит документы, но не отвечает на вопрос | отвечает связно, но может выдумывать | находит релевантные фрагменты и отвечает **строго по ним** |
 
-### Цель
-
-Построить систему вопрос-ответ по корпусу документов на основе **RAG** (Retrieval-Augmented Generation) или дообученной LLM, а также измерить качество её ответов и проанализировать случаи галлюцинаций.
+</div>
 
 | | |
 |---|---|
-| **Тип задачи** | Question answering, генерация текста |
-| **Данные** | Собственный корпус документов или открытые корпуса (например, статьи arXiv) |
-| **Методы** | Эмбеддинги + vector store + retrieval + генерация LLM; альтернатива — LoRA fine-tuning небольшой open-source модели |
-| **Метрики** | Качество ответов (human eval, RAGAS: faithfulness, relevance), latency |
-| **Усложнения** | Сравнение чистого RAG и fine-tuning; борьба с hallucinations; тест на adversarial-вопросах |
-| **Уровень** | PRO |
+| 🧩 **Тип задачи** | Question answering, генерация текста |
+| 🗂 **Данные** | Собственный корпус документов или открытые корпуса (например, статьи arXiv) |
+| 🛠 **Методы** | Эмбеддинги + vector store (FAISS / Qdrant / Chroma) + retrieval + генерация LLM; альтернатива — LoRA fine-tuning небольшой open-source модели |
+| 📏 **Метрики** | Human eval, RAGAS (faithfulness, relevance), latency |
+| 🧪 **Усложнения** | Сравнение чистого RAG vs fine-tuning; борьба с hallucinations; тест на adversarial-вопросах |
+| 🎓 **Уровень** | PRO |
 
-<img src="assets/divider.svg" alt="" width="100%">
+<!-- ================= TEAM ================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0B1F4D,50:1E50C8,100:4C8DF6&section=header" alt="" />
 
 ## 👥 Команда
 
-### Руководители проекта
+### 🧭 Руководители проекта
 
-Мовсумов Денис · Абакумов Юрий · Цуриков Виталий · Панчук Георгий · Мустафин Фарид · Голубев Александр · Родионов Никита
+<div align="center">
 
-### Куратор
+| | | | |
+|:---:|:---:|:---:|:---:|
+| Мовсумов Денис | Абакумов Юрий | Цуриков Виталий | Панчук Георгий |
+| Мустафин Фарид | Голубев Александр | Родионов Никита | |
 
-> 🧑‍🏫 **Куратор:** _ФИО куратора_ <!-- TODO: указать куратора -->
+</div>
 
-### Участники
+### 🧑‍🏫 Куратор
 
-| # | ФИО | Роль в проекте | GitHub |
-|:-:|-----|----------------|--------|
-| 1 | _ФИО_ | _например, Team Lead / Data_ | [@username](https://github.com/) |
-| 2 | _ФИО_ | _например, Retrieval / Vector store_ | [@username](https://github.com/) |
-| 3 | _ФИО_ | _например, LLM / Generation_ | [@username](https://github.com/) |
-| 4 | _ФИО_ | _например, Evaluation / Testing_ | [@username](https://github.com/) |
+> **_ФИО куратора_** <!-- TODO: указать куратора -->
+
+### 🧑‍💻 Участники
+
+| ФИО | Роль | Связь |
+|-----|------|-------|
+| _ФИО_ | _например, Team Lead / Data_ | [![GitHub](https://img.shields.io/badge/GitHub-4C8DF6?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+| _ФИО_ | _например, Retrieval / Vector store_ | [![GitHub](https://img.shields.io/badge/GitHub-4C8DF6?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+| _ФИО_ | _например, LLM / Generation_ | [![GitHub](https://img.shields.io/badge/GitHub-4C8DF6?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+| _ФИО_ | _например, Evaluation / Testing_ | [![GitHub](https://img.shields.io/badge/GitHub-4C8DF6?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
 
 <!-- TODO: заполнить состав команды -->
 
-<img src="assets/divider.svg" alt="" width="100%">
+<!-- ================= APPROACH ================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0B1F4D,50:1E50C8,100:4C8DF6&section=header" alt="" />
 
 ## 🧠 Подход
 
-Основной вариант — **RAG-пайплайн**: вместо того чтобы полагаться на память модели, мы находим релевантные фрагменты в корпусе и просим LLM ответить строго по ним.
-
 ```mermaid
 flowchart LR
-    A[📄 Корпус документов] --> B[Очистка и разбиение на чанки]
+    A[📄 Корпус] --> B[Чанки]
     B --> C[Эмбеддинги]
-    C --> D[(Векторный индекс<br/>FAISS / Qdrant / Chroma)]
-    Q[❓ Вопрос пользователя] --> E[Эмбеддинг запроса]
-    E --> F[Retrieval: top-k фрагментов]
+    C --> D[(Векторный индекс)]
+    Q[❓ Вопрос] --> E[Эмбеддинг запроса]
+    E --> F[Top-k retrieval]
     D --> F
     F --> G[Промпт: вопрос + контекст]
     G --> H[🤖 LLM]
-    H --> I[✅ Ответ со ссылками на источники]
+    H --> I[✅ Ответ + источники]
 ```
 
-**Альтернатива** — LoRA fine-tuning небольшой open-source модели на доменных данных.
-В рамках усложнений мы сравним оба подхода: **чистый RAG vs fine-tuning** (и, возможно, их комбинацию).
+**RAG vs fine-tuning** — в рамках усложнений сравниваем оба подхода:
 
-<img src="assets/divider.svg" alt="" width="100%">
+| | 🔎 RAG | 🎛 LoRA fine-tuning |
+|---|---|---|
+| **Знания** | берутся из корпуса в момент запроса | «зашиваются» в веса модели |
+| **Обновление корпуса** | переиндексация | повторное обучение |
+| **Источники** | можно ссылаться на фрагменты | напрямую не указываются |
+| **Риск галлюцинаций** | ниже, если контекст найден верно | выше без опоры на документы |
+
+<!-- ================= STACK ================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0B1F4D,50:1E50C8,100:4C8DF6&section=header" alt="" />
+
+## ⚙️ Планируемый стек
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,git,github,linux,postgres&theme=dark&perline=8" alt="Python, PyTorch, FastAPI, Docker, Git, GitHub, Linux, PostgreSQL" />
+
+<br/><br/>
+
+![RAG](https://img.shields.io/badge/RAG-4C8DF6?style=flat-square)
+![Embeddings](https://img.shields.io/badge/Embeddings-3A74E8?style=flat-square)
+![Vector Search](https://img.shields.io/badge/Vector_Search-1E50C8?style=flat-square)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-1A44A8?style=flat-square)
+![LoRA](https://img.shields.io/badge/LoRA-0F2D69?style=flat-square)
+![RAGAS](https://img.shields.io/badge/RAGAS-0B1F4D?style=flat-square)
+<br/>
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-4C8DF6?style=flat-square&logo=huggingface&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-3A74E8?style=flat-square&logo=meta&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-1E50C8?style=flat-square)
+![Chroma](https://img.shields.io/badge/Chroma-1A44A8?style=flat-square)
+![Pandas](https://img.shields.io/badge/Pandas-0F2D69?style=flat-square&logo=pandas&logoColor=white)
+![arXiv](https://img.shields.io/badge/arXiv-0B1F4D?style=flat-square&logo=arxiv&logoColor=white)
+
+</div>
+
+<!-- ================= PLAN ================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0B1F4D,50:1E50C8,100:4C8DF6&section=header" alt="" />
 
 ## 🗺 План работы
 
-> Черновой план на учебный год — будет уточняться вместе с куратором.
+> Черновой план на учебный год — будет уточняться вместе с куратором. Сроки ориентировочные.
 
-| Этап | Что делаем | Результат |
-|:----:|------------|-----------|
-| **1** | **Постановка задачи.** Выбор домена и корпуса, согласование метрик и порогов качества | Описание проекта, репозиторий, план |
-| **2** | **Корпус документов.** Сбор, очистка, разбиение на чанки | Подготовленный корпус |
-| **3** | **Индексация.** Выбор модели эмбеддингов, построение векторного индекса | Проиндексированный корпус |
-| **4** | **Retrieval + генерация.** Реализация поиска и генерации ответа LLM | Работающий baseline RAG |
-| **5** | **Тестовый набор.** Формирование вопросов с эталонными ответами (в том числе adversarial) | Размеченный тестовый набор |
-| **6** | **Оценка качества.** Human eval, RAGAS (faithfulness, relevance), замеры latency | Отчёт с метриками |
-| **7** | **Улучшения и эксперименты.** Настройка retrieval, борьба с hallucinations, LoRA fine-tuning, сравнение RAG vs fine-tuning | Сравнительный анализ |
-| **8** | **Анализ ошибок.** Документирование неудачных ответов и мер по их снижению | Разбор failure cases |
-| **9** | **Финал.** Итоговая документация, демо, подготовка защиты | Готовый проект и презентация |
+```mermaid
+gantt
+    title Дорожная карта проекта
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b
+    section Подготовка
+    Постановка задачи, выбор домена   :a1, 2026-10-05, 25d
+    Сбор и подготовка корпуса         :a2, after a1, 30d
+    section Система
+    Эмбеддинги и векторный индекс     :b1, after a2, 25d
+    Retrieval + генерация (baseline)  :b2, after b1, 35d
+    section Оценка
+    Тестовый набор вопросов           :c1, after b1, 30d
+    Human eval и RAGAS                :c2, after b2, 30d
+    section Улучшения
+    LoRA, борьба с hallucinations     :d1, after c2, 40d
+    Анализ ошибок                     :d2, after d1, 20d
+    section Финал
+    Документация и защита             :e1, after d2, 25d
+```
 
-### Чек-лист
+| | Этап | Результат |
+|:-:|------|-----------|
+| 1️⃣ | Постановка задачи: домен, корпус, метрики и пороги | Описание проекта, репозиторий |
+| 2️⃣ | Сбор, очистка и разбиение корпуса на чанки | Подготовленный корпус |
+| 3️⃣ | Эмбеддинги и векторный индекс | Проиндексированный корпус |
+| 4️⃣ | Retrieval + генерация ответа LLM | Baseline RAG |
+| 5️⃣ | Тестовый набор вопросов с эталонами (в т.ч. adversarial) | Размеченный набор |
+| 6️⃣ | Оценка: human eval, RAGAS, latency | Отчёт с метриками |
+| 7️⃣ | Улучшения: retrieval, hallucinations, LoRA, RAG vs fine-tuning | Сравнительный анализ |
+| 8️⃣ | Анализ неудачных ответов и меры по их снижению | Разбор failure cases |
+| 9️⃣ | Итоговая документация, демо, защита | Готовый проект |
+
+<details>
+<summary><b>☑️ Чек-лист</b></summary>
+
+<br/>
 
 - [x] Создан репозиторий проекта
 - [ ] Определены домен и корпус документов
@@ -125,16 +180,20 @@ flowchart LR
 - [ ] Задокументированы неудачные ответы и меры по их снижению
 - [ ] Подготовлена защита проекта
 
-<img src="assets/divider.svg" alt="" width="100%">
+</details>
+
+<!-- ================= METRICS ================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0B1F4D,50:1E50C8,100:4C8DF6&section=header" alt="" />
 
 ## 📊 Метрики и критерии приёмки
 
-**Метрики**
+<div align="center">
 
-- **Faithfulness** — ответ опирается на найденные источники и не содержит выдумок;
-- **Relevance** — ответ действительно отвечает на заданный вопрос;
-- **Human evaluation** — экспертная оценка ответов;
-- **Latency** — время отклика системы.
+| 🎯 Faithfulness | 💬 Relevance | 🧑‍⚖️ Human eval | ⏱ Latency |
+|:---:|:---:|:---:|:---:|
+| ответ опирается на источники, без выдумок | ответ действительно отвечает на вопрос | экспертная оценка ответов | время отклика системы |
+
+</div>
 
 **Критерии приёмки**
 
@@ -142,10 +201,13 @@ flowchart LR
 2. На тестовом наборе вопросов ответы оценены по релевантности и достоверности (human eval или RAGAS) **выше согласованного порога**.
 3. Задокументированы случаи неудачных ответов и предложены меры их снижения.
 
-<img src="assets/divider.svg" alt="" width="100%">
+<!-- ================= FOOTER ================= -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0B1F4D,50:1E50C8,100:4C8DF6&section=header" alt="" />
 
 <div align="center">
 
-<img src="assets/footer.svg" alt="RAG-система / дообучение LLM под домен" width="100%">
+**RAG-система / дообучение LLM под домен · Годовой проект · Уровень PRO**
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:4C8DF6,50:1E50C8,100:0B1F4D&section=footer&reversal=true" alt="" />
