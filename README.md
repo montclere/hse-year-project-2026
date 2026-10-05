@@ -54,10 +54,34 @@
 
 ## 👥 Команда
 
-| | Роль | ФИО | GitHub |
-|:-:|------|-----|--------|
-| 🧑‍🏫 | **Куратор** | _ФИО куратора_ | — |
-| 🧑‍💻 | **Студент** | _ФИО_ | [@ArmbristerVlad](https://github.com/ArmbristerVlad) |
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="340">
+      <br/>
+      <img src="https://img.shields.io/badge/%D0%9A%D1%83%D1%80%D0%B0%D1%82%D0%BE%D1%80-0F2D69?style=for-the-badge" alt="Куратор" />
+      <br/><br/>
+      <b><i>ФИО куратора</i></b>
+      <br/>
+      <sub>Руководитель проекта</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="340">
+      <br/>
+      <img src="https://img.shields.io/badge/%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82-1E50C8?style=for-the-badge" alt="Студент" />
+      <br/><br/>
+      <b><i>ФИО</i></b>
+      <br/>
+      <sub>Исполнитель проекта</sub>
+      <br/><br/>
+      <a href="https://github.com/ArmbristerVlad"><img src="https://img.shields.io/badge/@ArmbristerVlad-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub @ArmbristerVlad" /></a>
+      <br/><br/>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 <!-- TODO: указать ФИО куратора и своё -->
 
@@ -65,14 +89,27 @@
 
 ## 🧰 Планируемый стек
 
-| Направление | Инструменты |
-|-------------|-------------|
-| **Язык и ML** | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black) ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) |
-| **RAG** | ![RAG](https://img.shields.io/badge/RAG-4C8DF6) ![Embeddings](https://img.shields.io/badge/Embeddings-1E50C8) ![Vector Search](https://img.shields.io/badge/Vector%20Search-0F2D69) ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-0B1F4D) |
-| **Векторное хранилище** | ![FAISS](https://img.shields.io/badge/FAISS-0467DF?logo=meta&logoColor=white) ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C) ![Chroma](https://img.shields.io/badge/Chroma-FF6446) |
-| **Дообучение и оценка** | ![LoRA](https://img.shields.io/badge/LoRA-orange) ![RAGAS](https://img.shields.io/badge/RAGAS-success) |
-| **Сервис и инфраструктура** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) |
-| **Разработка и данные** | ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white) ![arXiv](https://img.shields.io/badge/arXiv-B31B1B?logo=arxiv&logoColor=white) |
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,git,github,linux,postgres&theme=dark&perline=8" alt="Python, PyTorch, FastAPI, Docker, Git, GitHub, Linux, PostgreSQL" />
+
+<br/><br/>
+
+![RAG](https://img.shields.io/badge/RAG-4C8DF6?style=flat-square)
+![Embeddings](https://img.shields.io/badge/Embeddings-3A74E8?style=flat-square)
+![Vector Search](https://img.shields.io/badge/Vector_Search-1E50C8?style=flat-square)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-1A44A8?style=flat-square)
+![LoRA](https://img.shields.io/badge/LoRA-0F2D69?style=flat-square)
+![RAGAS](https://img.shields.io/badge/RAGAS-0B1F4D?style=flat-square)
+<br/>
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-4C8DF6?style=flat-square&logo=huggingface&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-3A74E8?style=flat-square&logo=meta&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-1E50C8?style=flat-square)
+![Chroma](https://img.shields.io/badge/Chroma-1A44A8?style=flat-square)
+![Pandas](https://img.shields.io/badge/Pandas-0F2D69?style=flat-square&logo=pandas&logoColor=white)
+![arXiv](https://img.shields.io/badge/arXiv-0B1F4D?style=flat-square&logo=arxiv&logoColor=white)
+
+</div>
 
 <img src="docs/img/divider.svg" alt="" width="100%">
 
