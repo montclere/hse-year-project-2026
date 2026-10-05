@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="footer">
+<defs>
+  <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#0B1F4D"/><stop offset="0.5" stop-color="#1E50C8"/><stop offset="1" stop-color="#4C8DF6"/></linearGradient>
+  <linearGradient id="b" x1="0" x2="1"><stop offset="0" stop-color="#1E50C8" stop-opacity=".55"/><stop offset="1" stop-color="#4C8DF6" stop-opacity=".25"/></linearGradient>
+  <clipPath id="c"><rect width="1200" height="160" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+  <rect width="1200" height="160" fill="url(#a)"/>
+  <path d="M0 70 C200 20 380 120 600 70 S1000 20 1200 75 V160 H0Z" fill="url(#b)"/>
+  <path d="M0 105 C220 70 420 150 640 108 S1020 70 1200 110 V160 H0Z" fill="#fff" fill-opacity="0.08"/>
+  <line x1="543" y1="88" x2="609" y2="91" stroke="#fff" stroke-opacity="0.18" stroke-width="1.2"/>
+<line x1="543" y1="88" x2="634" y2="23" stroke="#fff" stroke-opacity="0.07" stroke-width="1.2"/>
+<line x1="543" y1="88" x2="529" y2="125" stroke="#fff" stroke-opacity="0.25" stroke-width="1.2"/>
+<line x1="543" y1="88" x2="623" y2="98" stroke="#fff" stroke-opacity="0.15" stroke-width="1.2"/>
+<line x1="543" y1="88" x2="600" y2="101" stroke="#fff" stroke-opacity="0.20" stroke-width="1.2"/>
+<line x1="543" y1="88" x2="549" y2="51" stroke="#fff" stroke-opacity="0.26" stroke-width="1.2"/>
+<line x1="1109" y1="76" x2="1179" y2="140" stroke="#fff" stroke-opacity="0.11" stroke-width="1.2"/>
+<line x1="1109" y1="76" x2="1197" y2="144" stroke="#fff" stroke-opacity="0.07" stroke-width="1.2"/>
+<line x1="1109" y1="76" x2="1008" y2="107" stroke="#fff" stroke-opacity="0.09" stroke-width="1.2"/>
+<line x1="1109" y1="76" x2="1016" y2="65" stroke="#fff" stroke-opacity="0.12" stroke-width="1.2"/>
+<line x1="1109" y1="76" x2="1150" y2="125" stroke="#fff" stroke-opacity="0.19" stroke-width="1.2"/>
+<line x1="609" y1="91" x2="634" y2="23" stroke="#fff" stroke-opacity="0.17" stroke-width="1.2"/>
+<line x1="609" y1="91" x2="529" y2="125" stroke="#fff" stroke-opacity="0.13" stroke-width="1.2"/>
+<line x1="609" y1="91" x2="623" y2="98" stroke="#fff" stroke-opacity="0.31" stroke-width="1.2"/>
+<line x1="609" y1="91" x2="600" y2="101" stroke="#fff" stroke-opacity="0.32" stroke-width="1.2"/>
+<line x1="609" y1="91" x2="549" y2="51" stroke="#fff" stroke-opacity="0.17" stroke-width="1.2"/>
+<line x1="222" y1="82" x2="113" y2="54" stroke="#fff" stroke-opacity="0.07" stroke-width="1.2"/>
+<line x1="222" y1="82" x2="109" y2="120" stroke="#fff" stroke-opacity="0.05" stroke-width="1.2"/>
+<line x1="222" y1="82" x2="189" y2="17" stroke="#fff" stroke-opacity="0.17" stroke-width="1.2"/>
+<line x1="222" y1="82" x2="228" y2="46" stroke="#fff" stroke-opacity="0.26" stroke-width="1.2"/>
+<line x1="222" y1="82" x2="347" y2="24" stroke="#fff" stroke-opacity="0.01" stroke-width="1.2"/>
+<line x1="756" y1="118" x2="832" y2="20" stroke="#fff" stroke-opacity="0.04" stroke-width="1.2"/>
+<line x1="756" y1="118" x2="785" y2="95" stroke="#fff" stroke-opacity="0.26" stroke-width="1.2"/>
+<line x1="756" y1="118" x2="623" y2="98" stroke="#fff" stroke-opacity="0.01" stroke-width="1.2"/>
+<line x1="113" y1="54" x2="109" y2="120" stroke="#fff" stroke-opacity="0.19" stroke-width="1.2"/>
+<line x1="113" y1="54" x2="189" y2="17" stroke="#fff" stroke-opacity="0.14" stroke-width="1.2"/>
+<line x1="113" y1="54" x2="228" y2="46" stroke="#fff" stroke-opacity="0.06" stroke-width="1.2"/>
+<line x1="113" y1="54" x2="36" y2="75" stroke="#fff" stroke-opacity="0.15" stroke-width="1.2"/>
+<line x1="113" y1="54" x2="1" y2="42" stroke="#fff" stroke-opacity="0.07" stroke-width="1.2"/>
+<line x1="109" y1="120" x2="189" y2="17" stroke="#fff" stroke-opacity="0.02" stroke-width="1.2"/>
+<line x1="109" y1="120" x2="36" y2="75" stroke="#fff" stroke-opacity="0.14" stroke-width="1.2"/>
+<line x1="109" y1="120" x2="1" y2="42" stroke="#fff" stroke-opacity="0.02" stroke-width="1.2"/>
+<line x1="832" y1="20" x2="785" y2="95" stroke="#fff" stroke-opacity="0.13" stroke-width="1.2"/>
+<line x1="832" y1="20" x2="920" y2="67" stroke="#fff" stroke-opacity="0.10" stroke-width="1.2"/>
+<line x1="1179" y1="140" x2="1197" y2="144" stroke="#fff" stroke-opacity="0.30" stroke-width="1.2"/>
+<line x1="1179" y1="140" x2="1150" y2="125" stroke="#fff" stroke-opacity="0.27" stroke-width="1.2"/>
+<line x1="785" y1="95" x2="920" y2="67" stroke="#fff" stroke-opacity="0.01" stroke-width="1.2"/>
+<line x1="189" y1="17" x2="228" y2="46" stroke="#fff" stroke-opacity="0.23" stroke-width="1.2"/>
+<line x1="634" y1="23" x2="623" y2="98" stroke="#fff" stroke-opacity="0.16" stroke-width="1.2"/>
+<line x1="634" y1="23" x2="600" y2="101" stroke="#fff" stroke-opacity="0.14" stroke-width="1.2"/>
+<line x1="634" y1="23" x2="549" y2="51" stroke="#fff" stroke-opacity="0.13" stroke-width="1.2"/>
+<line x1="228" y1="46" x2="347" y2="24" stroke="#fff" stroke-opacity="0.05" stroke-width="1.2"/>
+<line x1="36" y1="75" x2="1" y2="42" stroke="#fff" stroke-opacity="0.23" stroke-width="1.2"/>
+<line x1="529" y1="125" x2="623" y2="98" stroke="#fff" stroke-opacity="0.11" stroke-width="1.2"/>
+<line x1="529" y1="125" x2="600" y2="101" stroke="#fff" stroke-opacity="0.16" stroke-width="1.2"/>
+<line x1="529" y1="125" x2="549" y2="51" stroke="#fff" stroke-opacity="0.16" stroke-width="1.2"/>
+<line x1="623" y1="98" x2="600" y2="101" stroke="#fff" stroke-opacity="0.29" stroke-width="1.2"/>
+<line x1="623" y1="98" x2="549" y2="51" stroke="#fff" stroke-opacity="0.13" stroke-width="1.2"/>
+<line x1="600" y1="101" x2="549" y2="51" stroke="#fff" stroke-opacity="0.17" stroke-width="1.2"/>
+<line x1="1197" y1="144" x2="1150" y2="125" stroke="#fff" stroke-opacity="0.22" stroke-width="1.2"/>
+<line x1="1008" y1="107" x2="920" y2="67" stroke="#fff" stroke-opacity="0.11" stroke-width="1.2"/>
+<line x1="1008" y1="107" x2="1016" y2="65" stroke="#fff" stroke-opacity="0.24" stroke-width="1.2"/>
+<line x1="378" y1="45" x2="347" y2="24" stroke="#fff" stroke-opacity="0.26" stroke-width="1.2"/>
+<line x1="920" y1="67" x2="1016" y2="65" stroke="#fff" stroke-opacity="0.11" stroke-width="1.2"/>
+<circle cx="543" cy="88" r="2.5" fill="#fff" fill-opacity="0.66"/>
+<circle cx="1109" cy="76" r="5" fill="#fff" fill-opacity="0.63"/>
+<circle cx="609" cy="91" r="2.5" fill="#fff" fill-opacity="0.70"/>
+<circle cx="222" cy="82" r="2.5" fill="#fff" fill-opacity="0.80"/>
+<circle cx="756" cy="118" r="3.5" fill="#fff" fill-opacity="0.60"/>
+<circle cx="113" cy="54" r="3.5" fill="#fff" fill-opacity="0.60"/>
+<circle cx="109" cy="120" r="3.5" fill="#fff" fill-opacity="0.79"/>
+<circle cx="832" cy="20" r="2.5" fill="#fff" fill-opacity="0.51"/>
+<circle cx="1179" cy="140" r="5" fill="#fff" fill-opacity="0.50"/>
+<circle cx="785" cy="95" r="2.5" fill="#fff" fill-opacity="0.66"/>
+<circle cx="189" cy="17" r="3.5" fill="#fff" fill-opacity="0.53"/>
+<circle cx="634" cy="23" r="5" fill="#fff" fill-opacity="0.53"/>
+<circle cx="228" cy="46" r="5" fill="#fff" fill-opacity="0.54"/>
+<circle cx="36" cy="75" r="5" fill="#fff" fill-opacity="0.80"/>
+<circle cx="529" cy="125" r="3.5" fill="#fff" fill-opacity="0.74"/>
+<circle cx="623" cy="98" r="2.5" fill="#fff" fill-opacity="0.63"/>
+<circle cx="600" cy="101" r="2.5" fill="#fff" fill-opacity="0.45"/>
+<circle cx="549" cy="51" r="5" fill="#fff" fill-opacity="0.59"/>
+<circle cx="1197" cy="144" r="2.5" fill="#fff" fill-opacity="0.54"/>
+<circle cx="1008" cy="107" r="3.5" fill="#fff" fill-opacity="0.90"/>
+<circle cx="378" cy="45" r="5" fill="#fff" fill-opacity="0.74"/>
+<circle cx="347" cy="24" r="2.5" fill="#fff" fill-opacity="0.47"/>
+<circle cx="920" cy="67" r="2.5" fill="#fff" fill-opacity="0.55"/>
+<circle cx="1016" cy="65" r="3.5" fill="#fff" fill-opacity="0.45"/>
+<circle cx="1150" cy="125" r="5" fill="#fff" fill-opacity="0.60"/>
+<circle cx="1" cy="42" r="3.5" fill="#fff" fill-opacity="0.62"/>
+  <text x="600" y="92" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff">RAG-система / дообучение LLM под домен</text>
+  <text x="600" y="124" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" fill="#fff" fill-opacity=".85">Годовой проект · Уровень PRO</text>
+</g>
+</svg>

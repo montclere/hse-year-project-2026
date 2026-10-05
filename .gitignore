@@ -1,0 +1,79 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ===== Виртуальные окружения =====
+.venv/
+venv/
+env/
+.conda/
+
+# ===== Секреты и переменные окружения =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Тесты, линтеры, кэши =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# ===== Данные и корпус документов =====
+data/raw/
+data/processed/
+data/interim/
+*.parquet
+*.feather
+
+# ===== Векторные индексы и хранилища =====
+*.faiss
+*.index
+chroma/
+chroma_db/
+qdrant_storage/
+
+# ===== Модели, чекпоинты, веса =====
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.gguf
+*.onnx
+
+# ===== Логи экспериментов =====
+logs/
+*.log
+runs/
+wandb/
+mlruns/
+outputs/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== macOS / Windows =====
+.DS_Store
+._*
+Thumbs.db
